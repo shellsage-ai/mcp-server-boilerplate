@@ -62,15 +62,15 @@ async def main():
 
 ```
 my-mcp-server/
-â”œâ”€â”€ src/
-â”‚   â””â”€â”€ index.ts          # Server entry point
-â”œâ”€â”€ tools/
-â”‚   â””â”€â”€ example.ts        # Tool definitions
-â”œâ”€â”€ resources/
-â”‚   â””â”€â”€ example.ts        # Resource providers
-â”œâ”€â”€ package.json
-â”œâ”€â”€ tsconfig.json
-â””â”€â”€ claude_desktop_config.json
+├── src/
+│   └── index.ts          # Server entry point
+├── tools/
+│   └── example.ts        # Tool definitions
+├── resources/
+│   └── example.ts        # Resource providers
+├── package.json
+├── tsconfig.json
+└── claude_desktop_config.json
 ```
 
 ## Getting Started
@@ -85,18 +85,18 @@ my-mcp-server/
 
 This free boilerplate gets you started. The **[MCP Server Boilerplate Kit](https://shellsage-ai.github.io/)** ($49) includes:
 
-- âœ… Full TypeScript + Python dual-language templates
-- âœ… Docker containerization with multi-stage builds
-- âœ… CI/CD pipeline (GitHub Actions) for automated testing & deployment
-- âœ… SSE (Server-Sent Events) transport for web deployments
-- âœ… 15+ pre-built tool examples (file ops, API calls, database queries)
-- âœ… Resource and prompt template patterns
-- âœ… Error handling, logging, and retry patterns
-- âœ… Testing framework with mock MCP client
-- âœ… Production deployment guide (Docker, systemd, cloud)
-- âœ… Claude Desktop + Cursor + Windsurf integration configs
+- ✅ Full TypeScript + Python dual-language templates
+- ✅ Docker containerization with multi-stage builds
+- ✅ CI/CD pipeline (GitHub Actions) for automated testing & deployment
+- ✅ SSE (Server-Sent Events) transport for web deployments
+- ✅ 15+ pre-built tool examples (file ops, API calls, database queries)
+- ✅ Resource and prompt template patterns
+- ✅ Error handling, logging, and retry patterns
+- ✅ Testing framework with mock MCP client
+- ✅ Production deployment guide (Docker, systemd, cloud)
+- ✅ Claude Desktop + Cursor + Windsurf integration configs
 
-**[Get the full kit â†’](https://shellsage-ai.github.io/)**
+**[Get the full kit →](https://shellsage-ai.github.io/)**
 
 ## Resources
 
@@ -107,4 +107,4 @@ This free boilerplate gets you started. The **[MCP Server Boilerplate Kit](https
 
 ## License
 
-MIT â€” use this however you want.
+MIT — use this however you want.
