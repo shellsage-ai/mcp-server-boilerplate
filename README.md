@@ -4,6 +4,10 @@ Production-ready starter templates for building [Model Context Protocol](https:/
 
 Skip the boilerplate. Start building tools your AI agents can actually use.
 
+<a href="https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@shellsage-ai/mcp-server-boilerplate/badge" alt="Server Boilerplate MCP server" />
+</a>
+
 ## What's Included (Free)
 
 ### TypeScript Quickstart
