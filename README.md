@@ -1,8 +1,31 @@
 # MCP Server Boilerplate
 
+<a href="https://glama.ai/mcp/servers/tdjg6t8sk8"><img width="380" height="200" src="https://glama.ai/mcp/servers/tdjg6t8sk8/badge" alt="MCP Server Boilerplate on Glama" /></a>
+
 Production-ready starter templates for building [Model Context Protocol](https://modelcontextprotocol.io/) servers in **TypeScript** and **Python**.
 
 Skip the boilerplate. Start building tools your AI agents can actually use.
+
+## Server Capabilities
+
+This boilerplate ships with working examples of all three MCP primitives:
+
+### Tools
+
+| Tool | Description | Parameters |
+|------|-------------|------------|
+| `echo` | Echo a message back to the caller | `message` (string, required) |
+| `timestamp` | Get the current UTC timestamp | _(none)_ |
+
+### Resources
+
+| URI | Description | MIME Type |
+|-----|-------------|-----------|
+| `server://info` | Server metadata (name, version, available tools) | `application/json` |
+
+### Prompts
+
+No prompt templates are registered in the starter. The full kit includes prompt template patterns.
 
 ## What's Included (Free)
 
@@ -104,6 +127,7 @@ This free boilerplate gets you started. The **[MCP Server Boilerplate Kit](https
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [Claude Desktop MCP Docs](https://docs.anthropic.com/en/docs/build-with-claude/mcp)
+- [Glama MCP Directory](https://glama.ai/mcp/servers/tdjg6t8sk8)
 
 ## License
 
